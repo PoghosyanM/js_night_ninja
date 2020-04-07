@@ -1,3 +1,5 @@
+# Data types
+
 ## 1. number
 
 - 1, 1.5

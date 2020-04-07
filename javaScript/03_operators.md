@@ -1,3 +1,5 @@
+# Operators
+
 ## 1. unary, binary, operand
 
 - operand-ն այն է, ինչին դիմում է օպերատորը: Օրինակ, 3 \* 2-ի բազմապատկման մեջ կան երկու operand՝ ձախ operand-ը - 5, իսկ աջ operand-ը - 2:
