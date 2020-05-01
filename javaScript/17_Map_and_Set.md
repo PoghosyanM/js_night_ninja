@@ -70,7 +70,7 @@
 - set.clear() - ջնջում է collection-ը
 - set.size - տարրերի քանակն է:
 
-՝՝՝
+```
     let set = new Set();
 
     let john = { name: "John" };
@@ -86,7 +86,7 @@
     for (let user of set) {
         console.log(user.name);
     }
-՝՝՝
+```
 
 ### 4. loop set-ի վրա
 
