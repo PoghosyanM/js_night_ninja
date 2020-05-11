@@ -17,7 +17,7 @@ sayHi.call(user);
 
 # apply
 
-- call-ի և apply-ի միակ syntax-ի տարբերությունն այն է, որ call-ը ընդունում է argument-ների ցանկ, մինչդեռ apply-ը՝ array-like:
+- call-ի և apply-ի միակ syntax-ի տարբերությունն այն է, որ call-ը ընդունում է argument-ների ցանկ, իսկ apply-ը՝ array-like:
 - func.call(context, ...arguments)
 - func.apply(context, arguments)
 
@@ -33,7 +33,7 @@ function wrapper() {
 
 ```
 let user = {
-  firstName: "Вася",
+  firstName: "John",
   sayHi() {
     console.log(`hello, ${this.firstName}!`);
   }

@@ -11,7 +11,7 @@ console.log( obj + 1 ) // toString
 
 - obj = {} նույնն է, ինչ obj = new Object(), որտեղ Object-ը ներկառուցված constructor function է իր սեփական [[prototype]]-ով, ինչը հղվում է հսկայական օբյեկտին, որն ունի toString մեթոդ և այլն:
 
-<img src="https://learn.javascript.ru/article/native-prototypes/object-prototype-1.svg" width="300"/>
+<img src="https://learn.javascript.ru/article/native-prototypes/object-prototype-1.svg" width="700"/>
 
 - ներկառուցված բոլոր «prototype»-երի վերևում գտնվում է Object.prototype: Ահա թե ինչու են ասում, որ JS-ում «ամեն ինչ ժառանգվում է օբյեկտից»:
 

@@ -18,4 +18,4 @@ let promise = new Promise(function(resolve, reject) {
   - state - սկզբում "pending", այնուհետև "fulfilled, եթե resolve է եղել, կամ "rejected" է, եթե reject է եղել:
   - result - ի սկզբանե undefined, այնուհետև արժեքը փոխվում է value` resolve(value) կամ error՝ reject(error)
 
-<img src="https://learn.javascript.ru/article/promise-basics/promise-resolve-reject.svg" width="300"/>
+<img src="https://learn.javascript.ru/article/promise-basics/promise-resolve-reject.svg" width="700"/>
