@@ -52,3 +52,11 @@ setTimeout(user.sayHi, 1000); // hello, undefined!
 - Բրաուզերում տեղադրված setTimeout մեթոդը ունի առանձնահատկություն. Այն սահմանում է this = window `function-ը կանչելու համար: Այսպիսով, this.firstName-ի համար այն փորձում է ստանալ windows.firstName, որը գոյություն չունի: Նման այլ դեպքերում, սա սովորաբար դառնում է undefined:
 
 ### 2. ինչպես լուծել սա
+
+let f = user.sayHi.bind(user);
+
+### 3. Ինչպես փոխանցել argument-ներ
+
+- let bound = func.bind(context, [arg1], [arg2], ...);
+- let bound = func.bind(context);
+  - bound(args)
