@@ -86,5 +86,4 @@
 - before
 - after
 
-<img src="https://learn.javascript.ru/article/modifying-document/before-prepend-append-after.svg
-" width="700"/>
+<img src="https://learn.javascript.ru/article/modifying-document/before-prepend-append-after.svg" width="700"/>
