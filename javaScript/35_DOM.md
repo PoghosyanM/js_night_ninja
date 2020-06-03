@@ -77,8 +77,22 @@
 </script>
 ```
 
-### 5. Հիշողության կառավարման տարրեր
+### 5. class and style
 
+- class
+
+  - classList.add('name', 'name2') - ավելացնում է class
+  - classList.remove('name', 'name2') - ջնջում է class-ը
+  - classList.contains('name') - ստուգում է կա թե ոչ true/false
+
+- style
+
+  - elem.style.cssText = "color: blue; border: 1px solid black";
+  - elem.style.color = "blue";
+
+### 6. Ընդհանուր
+
+- setAttribute
 - innerHTML
 - innerText
 - append
